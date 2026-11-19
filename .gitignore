@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+ios/
+android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Amplify
+.amplify/
+amplify_outputs*.json
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Test and coverage
+coverage/
+.maestro/screenshots/
+
+# OS / editor
+.DS_Store
+*.log
+.idea/
+.vscode/*
+!.vscode/extensions.json
